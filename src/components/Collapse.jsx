@@ -1,7 +1,5 @@
 import{useState} from "react";
 
-
-
 const Collapse = ({text, status}) => {
     const [isShown, setIsShown] = useState(status);
 
